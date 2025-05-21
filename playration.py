@@ -1,7 +1,6 @@
 import yt_dlp
 from datetime import timedelta
 
-# Playlist URL
 playlist_url = 'https://www.youtube.com/watch?v=IUCEFBmYIog&list=PLlVtbbG169nED0_vMEniWBQjSoxTsBYS3'
 
 def format_seconds(seconds: int) -> str:
@@ -41,4 +40,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
