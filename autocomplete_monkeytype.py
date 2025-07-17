@@ -6,7 +6,6 @@ import time
 driver = webdriver.Chrome()
 driver.get("https://monkeytype.com")
 
-
 time.sleep(5)
 
 pyautogui.click()
