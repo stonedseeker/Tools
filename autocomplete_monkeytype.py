@@ -5,9 +5,9 @@ import time
 
 driver = webdriver.Chrome()
 driver.get("https://monkeytype.com")
+time.sleep(3)
 
-time.sleep(5)
-
+accept_button = driver.find_element(By.CLASS_NAME, "active.acceptAll")
 pyautogui.click()
 time.sleep(1)
 
